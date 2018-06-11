@@ -102,9 +102,6 @@ really bad under some circumstances."
                           `(org-level-1 ((t (,@headline ,@sans-font :height 1.40  :box ,padding ))))
                           `(org-document-title ((t (:inherit org-level-1 :height 1.50 :underline nil :box ,padding))))
                           `(org-block ((t (:foreground ,base-font-color :background ,background-color :box nil))))
-                          `(org-block-begin-line ((t ,org-highlights)))
-                          `(org-block-end-line ((t ,org-highlights)))
-
                           `(org-checkbox ((t (:foreground "#000000", :background "#93a1a1" :box (:line-width -3 :color "#93a1a1" :style "released-button")))))
 
                           `(org-headline-done ((t (:strike-through t))))
